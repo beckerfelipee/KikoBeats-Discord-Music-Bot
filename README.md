@@ -1,3 +1,2 @@
-# <img alt="Logo" height="100" width="100" src="https://raw.githubusercontent.com/beckerfelipee/ImagesDB/main/KikoBeats/icon4%20no%20bg.png"> KikoBeats! - Discord Music Bot 
+# <img alt="Logo" height="150" width="150" src="https://raw.githubusercontent.com/beckerfelipee/ImagesDB/main/Images/logoNoBg.png"> KikoBeats! - Discord Music Bot 
 
-<img alt="Logo" height="200" width="200" src="https://raw.githubusercontent.com/beckerfelipee/ImagesDB/main/KikoBeats/icon4%20no%20bg.png">
