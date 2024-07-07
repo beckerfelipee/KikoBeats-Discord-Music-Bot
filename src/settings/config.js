@@ -5,17 +5,17 @@ module.exports = {
     prefix: process.env.PREFIX || "f?",
     color: process.env.EMBED_COLOR || "#c50632",
     owner: process.env.OWNER_ID || "",
-    guildLogs: process.env.GUILD_LOGS || "", // 
-    leaveTimeout: process.env.LEAVE_TIMEOUT || "10000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
-    disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
+    guildLogs: process.env.GUILD_LOGS || "", 
+    leaveTimeout: process.env.LEAVE_TIMEOUT || "10000", 
+    disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), 
 
     // ⬇⬇⬇ PORU DETAILS
-    playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
+    playSource: process.env.PLAY_SOURCE || "ytsearch", // "ytsearch","ytmsearch","scsearch"
     poruOptions: {
-        defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
+        defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // "ytsearch","ytmsearch","scsearch"
         clientID: process.env.SPOTIFY_ID || "", // 
         clientSecret: process.env.SPOTIFY_SECRET || "", // 
-        reconnectTries: 2, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
+        reconnectTries: 2, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 1, // <==== 1 = 50 TRACKS
         artistLimit: 1, // <==== 1 = 50 TRACKS
